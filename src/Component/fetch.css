@@ -1,0 +1,60 @@
+#fetchblock article {
+  padding-top: 40px;
+  background: #efefef;
+  width: 100%;
+}
+#fetchblock article .main {
+  display: flex;
+  width: 100%;
+}
+#fetchblock article .main .leftblock {
+  display: flex;
+  justify-content: space-evenly;
+  flex-basis: 50%;
+}
+#fetchblock article .main .rightblock {
+  display: flex;
+  justify-content: center;
+  flex-basis: 50%;
+}
+#fetchblock article button {
+  background: #111;
+  border-radius: 5px;
+  padding: 2;
+  height: 40px;
+  color: #fff;
+  font-size: x-large;
+  font-weight: 600;
+}
+#fetchblock article input {
+  height: 40px;
+  padding: 5px;
+  width: 250px;
+}
+#fetchblock article .contentblock {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+#fetchblock article .contentblock .list {
+  display: flex;
+  font-size: larger;
+  border: 1px solid black;
+  width: 600px;
+}
+
+#fetchblock article .contentblock .list label{
+    flex-basis: 5%;
+    display: flex;
+    background: #111;
+    color: #fff;
+      font-weight: 500;
+      align-items: center;
+      justify-content: center;
+}
+#fetchblock article .contentblock .list li {
+  padding-left: 5px;
+flex-basis: 90%;
+  font-weight: 500;
+}
